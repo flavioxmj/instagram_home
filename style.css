@@ -41,7 +41,7 @@ body{
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
-    width: 50%;
+    width: 35%;
     min-height: 34rem;
 }
 
@@ -128,4 +128,33 @@ body{
 
 .app-dowload:nth-child(2){
     background-image: url(./play_store.png);
+}
+
+/*media queries */
+
+@media (max-width: 1024px) {
+    .instagram_home{
+        width: 90%;
+    }
+}
+
+@media (max-width: 650px) {
+    body{
+        color: #ffffff;
+    }
+
+    .insta_esq{
+        width: 90%;
+    }
+
+    .insta_esq{
+        display: none;
+    }
+
+    .insta_login{
+        width: 100%;
+    }
+    .box_login-sing-in{
+        border: 1px solid transparent;
+    }
 }
