@@ -36,7 +36,96 @@ body{
     height: 50rem;
 }
 
+.insta_dir{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
+}
+
+.box_login-sing-in{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
+}
+
+.box_login-sing-in:nth-child(1){
+    min-height: 19rem;
+}
 
 .insta_logo{
-    height: 5.5rem;
+    height: 4.5rem;
+}
+
+.profile_pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile_pic img{
+    height: 6rem;
+}
+
+.insta_login{
+    background-color: #0095f6;
+    color: #ffffff;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.insta_logout{
+    color: #0095f6;
+    margin-top: 1rem;
+}
+
+.nova_conta{
+    color: rgb(160,160,160);  
+}
+
+.texto-azul{
+    color: #0095f6;
+}
+
+.download_app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+
+.download-icons{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+
+.app-dowload{
+    height: 6rem;
+    width: 15rem;
+    background-size: cover;
+}
+
+.app-dowload:nth-child(1){
+    background-image: url(./app_store.png);
+    height: 4.1rem;
+    width: 14rem;
+    background-size: cover;
+}
+
+.app-dowload:nth-child(2){
+    background-image: url(./play_store.png);
 }
